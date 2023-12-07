@@ -16,7 +16,7 @@ public class JobApplicationController {
     private JobApplicationService jobApplicationService;
 
     @GetMapping("/applications")
-    public List<JobApplicationRepository> getAllJobApplications() {
+    public List<JobApplication> getAllJobApplications() {
         return jobApplicationService.getAllJobApplications();
     }
 

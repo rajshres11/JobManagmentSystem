@@ -13,7 +13,8 @@ public class JobApplicationService {
     @Autowired
     private JobApplicationRepository jobApplicationRepository;
 
-    public List<JobApplicationRepository> getAllJobApplications() {
+
+    public List<JobApplication> getAllJobApplications() {
         return jobApplicationRepository.findAll();
     }
 
@@ -22,8 +23,7 @@ public class JobApplicationService {
     }
 
     public JobApplication createJobApplication(JobApplication jobApplication) {
-        S save = jobApplicationRepository.save(jobApplication);
-        return save;
+        return jobApplicationRepository.save(jobApplication);
     }
 
 
