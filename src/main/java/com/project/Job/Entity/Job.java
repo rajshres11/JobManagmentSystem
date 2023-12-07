@@ -1,4 +1,4 @@
-package Entity;
+package com.project.Job.Entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -11,15 +11,13 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Entity
-public class Admin {
+public class Job {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String Adminname;
-    private String password;
-
+    private String title;
+    private String description;
 }
-

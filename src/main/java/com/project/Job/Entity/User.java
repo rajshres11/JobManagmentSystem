@@ -1,4 +1,4 @@
-package Entity;
+package com.project.Job.Entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -11,14 +11,16 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
+
 @Entity
-public class Feedback {
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String message;
-
+    private String Username;
+    private String password;
+    private String fullname;
+    private String email;
 }
-
