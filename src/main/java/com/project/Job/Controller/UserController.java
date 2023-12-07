@@ -1,6 +1,7 @@
 package com.project.Job.Controller;
 
 import com.project.Job.Entity.User;
+import com.project.Job.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

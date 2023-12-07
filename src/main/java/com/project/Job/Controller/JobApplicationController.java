@@ -1,6 +1,7 @@
 package com.project.Job.Controller;
 
 import com.project.Job.Entity.JobApplication;
+import com.project.Job.Repository.JobApplicationRepository;
 import com.project.Job.Service.JobApplicationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -15,7 +16,7 @@ public class JobApplicationController {
     private JobApplicationService jobApplicationService;
 
     @GetMapping("/applications")
-    public List<JobApplication> getAllJobApplications() {
+    public List<JobApplicationRepository> getAllJobApplications() {
         return jobApplicationService.getAllJobApplications();
     }
 

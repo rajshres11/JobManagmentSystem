@@ -1,3 +1,4 @@
+package com.project.Job.Service;
 import com.project.Job.Entity.User;
 import com.project.Job.Repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;

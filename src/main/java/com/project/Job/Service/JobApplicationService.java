@@ -17,7 +17,7 @@ public class JobApplicationService {
         return jobApplicationRepository.findAll();
     }
 
-    public JobApplicationRepository getJobApplicationById(Long id) {
+    public JobApplication getJobApplicationById(Long id) {
         return jobApplicationRepository.findById(id).orElse(null);
     }
 
