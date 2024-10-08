@@ -51,7 +51,7 @@ Contributions are welcome! Feel free to submit a pull request or open an issue.
 
 ## Contact
 
-For any inquiries or feedback, please reach out to the project maintainer at [your-email@example.com].
+For any inquiries or feedback, please reach out to the project maintainer at [shresthraj1012001@gmail.com].
 
 ---
 
